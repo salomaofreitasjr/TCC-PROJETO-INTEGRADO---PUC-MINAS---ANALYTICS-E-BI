@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.9">
+ <project-name>FUT_BRASIL</project-name>
+ <print-settings printerName="PDFCreator" numCopies="1" zoom="0.43" pageNumbersPrinted="false" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="PlayPen Database" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="50285d97-b71f-4d9b-be9b-d919489c7319" name="TB_CLUBE" objectType="TABLE" physicalName="TB_CLUBE" >
+   <remarks></remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL2" populated="true" UUID="f57f93d2-750e-42a4-bc12-308ddb28a9d2" autoIncrement="true" autoIncrementSequenceName="SEQ_COD_CLUBE" defaultValue="" name="cod_clube" nullable="0" physicalName="cod_clube" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="279e0a5e-cc5f-48e4-90bd-3543d9cffa64" autoIncrement="false" autoIncrementSequenceName="TB_CLUBE_nome_seq" defaultValue="" name="nome" nullable="0" physicalName="nome" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="ca4785a3-c0c1-49ca-9cf1-0e6590406e92" autoIncrement="false" autoIncrementSequenceName="TB_CLUBE_escudo_seq" defaultValue="" name="escudo" nullable="1" physicalName="escudo" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2004" userDefinedTypeUUID="5c50e616-a448-40e1-abcd-5bfc04dcc607" >
+     <remarks></remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="f5fc93a1-8a05-4054-aa9e-cf7cb2b1e822" autoIncrement="false" autoIncrementSequenceName="TB_CIDADE_cod_cidade_seq" defaultValue="" name="cod_cidade" nullable="1" physicalName="cod_cidade" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX6" populated="true" UUID="2e18a676-550c-43ce-a076-837de3cf480c" clustered="false" name="TB_CLUBE_pk" physicalName="TB_CLUBE_PK" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC7" populated="true" UUID="afd0fbb0-d5dc-4875-a9e1-f0ffca03e648" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="cod_clube" physicalName="cod_clube" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB8" populated="true" UUID="ab8eda41-b87c-4ffe-ad41-74d29e727a9d" name="TB_ESTADIO" objectType="TABLE" physicalName="TB_ESTADIO" >
+   <remarks></remarks>
+   <folder id="FOLTAB81" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL9" populated="true" UUID="b25945aa-3e64-49c0-bc55-e9e1f3c1d2aa" autoIncrement="true" autoIncrementSequenceName="SEQ_COD_ESTADIO" defaultValue="" name="cod_estadio" nullable="0" physicalName="cod_estadio" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="9fafc1d9-2360-4ed9-8c30-704940083ecb" autoIncrement="false" autoIncrementSequenceName="TB_ESTADIO_nome_seq" defaultValue="" name="nome" nullable="0" physicalName="nome" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL11" populated="true" UUID="58955579-abfb-4107-a15b-a51012993d28" autoIncrement="false" autoIncrementSequenceName="TB_ESTADIO_capacidade_seq" defaultValue="" name="capacidade" nullable="1" physicalName="capacidade" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL12" populated="true" UUID="c9a948d6-0239-42c5-b69a-254399676e44" autoIncrement="false" autoIncrementSequenceName="TB_ESTADIO_foto_seq" defaultValue="" name="foto" nullable="1" physicalName="foto" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2004" userDefinedTypeUUID="5c50e616-a448-40e1-abcd-5bfc04dcc607" >
+     <remarks></remarks>
+    </column>
+    <column id="COL13" populated="true" UUID="11d6c337-5b46-4efd-8572-b1104a6a445e" autoIncrement="false" autoIncrementSequenceName="TB_CIDADE_cod_cidade_seq_1" defaultValue="" name="cod_cidade" nullable="1" physicalName="cod_cidade" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB83" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB82" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB84" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX14" populated="true" UUID="7b57ddd2-6679-46bc-9cb5-135934e3b4b5" clustered="false" name="TB_ESTADIO_pk" physicalName="TB_ESTADIO_PK" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC15" populated="true" UUID="4514b299-e023-42b2-bbe7-1dba06b238f5" ascendingOrDescending="UNSPECIFIED" column-ref="COL9" name="cod_estadio" physicalName="cod_estadio" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB16" populated="true" UUID="ff07bc67-be54-4d2e-9184-df64914e36fa" name="TB_CIDADE" objectType="TABLE" physicalName="TB_CIDADE" >
+   <remarks></remarks>
+   <folder id="FOLTAB161" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL17" populated="true" UUID="f8450746-3e52-427c-837b-2f205c6b0fe1" autoIncrement="false" autoIncrementSequenceName="TB_CIDADE_cod_cidade_seq_1_1" defaultValue="" name="cod_cidade" nullable="0" physicalName="cod_cidade" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL18" populated="true" UUID="8d2bd9a1-8fb7-4624-9ac9-69ce635cc2dd" autoIncrement="false" autoIncrementSequenceName="TB_CIDADE_nome_seq" defaultValue="" name="nome" nullable="0" physicalName="nome" precision="60" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL19" populated="true" UUID="898f186c-995c-4239-9719-00c29839fd13" autoIncrement="false" autoIncrementSequenceName="TB_ESTADO_cod_estado_seq" defaultValue="" name="cod_estado" nullable="0" physicalName="cod_estado" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB163" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB162" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB164" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX20" populated="true" UUID="2a95711a-beb2-4695-85fb-d7aa36d2e269" clustered="false" name="TB_CIDADE_pk" physicalName="TB_CIDADE_PK" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC21" populated="true" UUID="64aa412e-b568-445e-9eae-54a6905c3def" ascendingOrDescending="UNSPECIFIED" column-ref="COL17" name="cod_cidade" physicalName="cod_cidade" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB22" populated="true" UUID="c144d43d-de2d-4bbf-a9e6-7b072b7d7483" name="TB_ESTADO" objectType="TABLE" physicalName="TB_ESTADO" >
+   <remarks></remarks>
+   <folder id="FOLTAB221" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL23" populated="true" UUID="0cf77c56-7735-4c8d-aa9d-4a9bd4b37e5e" autoIncrement="false" autoIncrementSequenceName="TB_ESTADO_cod_estado_seq_1" defaultValue="" name="cod_estado" nullable="0" physicalName="cod_estado" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL24" populated="true" UUID="4744edc4-ab0f-4c51-85c0-b45708cdb22b" autoIncrement="false" autoIncrementSequenceName="TB_ESTADO_nome_seq" defaultValue="" name="nome" nullable="0" physicalName="nome" precision="60" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL25" populated="true" UUID="6fc0ce02-e12c-4ac1-8db4-a1d60350709f" autoIncrement="false" autoIncrementSequenceName="TB_ESTADO_sigla_seq" defaultValue="" name="sigla" nullable="0" physicalName="sigla" precision="2" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL26" populated="true" UUID="57ea5836-a285-44fa-8cd0-e433c5d0d057" autoIncrement="false" autoIncrementSequenceName="TB_REGIAO_cod_regiao_seq" defaultValue="" name="cod_regiao" nullable="0" physicalName="cod_regiao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB223" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB222" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB224" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX27" populated="true" UUID="ff2983bd-8a22-4f07-93e2-055bf6492f8b" clustered="false" name="TB_ESTADO_pk" physicalName="TB_ESTADO_PK" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC28" populated="true" UUID="a73a8002-c3ec-46a4-84ac-b58b1f359a70" ascendingOrDescending="UNSPECIFIED" column-ref="COL23" name="cod_estado" physicalName="cod_estado" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB29" populated="true" UUID="f70ba16c-f2a2-4227-a4bb-2a88098d9dd5" name="TB_REGIAO" objectType="TABLE" physicalName="TB_REGIAO" >
+   <remarks></remarks>
+   <folder id="FOLTAB291" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL30" populated="true" UUID="f8ebe1e6-b154-44bb-851e-de6b83d07d97" autoIncrement="false" autoIncrementSequenceName="TB_REGIAO_cod_regiao_seq_1" defaultValue="" name="cod_regiao" nullable="0" physicalName="cod_regiao" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL31" populated="true" UUID="4cb125e2-727f-4d90-804c-aa17f9251bc1" autoIncrement="false" autoIncrementSequenceName="TB_REGIAO_nome_seq" defaultValue="" name="nome" nullable="0" physicalName="nome" precision="60" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB293" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB292" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB294" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX32" populated="true" UUID="8b78d202-7d72-4336-83af-fb0b7cd9a187" clustered="false" name="TB_REGIAO_pk" physicalName="TB_REGIAO_PK" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC33" populated="true" UUID="1f0e0079-b479-42d3-bad4-cda98ef2178d" ascendingOrDescending="UNSPECIFIED" column-ref="COL30" name="cod_regiao" physicalName="cod_regiao" />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL34" populated="true" UUID="117ea4eb-871f-481b-abf2-495b774e75ad" deferrability="7" deleteRule="3" fk-table-ref="TAB1" fkCardinality="7" identifying="false" name="TB_CIDADE_TB_CLUBE_fk" physicalName="TB_CIDADE_TB_CLUBE_fk" pk-table-ref="TAB16" pkCardinality="3" updateRule="3" >
+    <column-mapping id="CMP35" populated="true" UUID="1d71f8e0-e05c-4670-a187-85213203199a" fk-column-ref="COL5" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL17" />
+   </relationship>
+   <relationship id="REL36" populated="true" UUID="48531724-c24c-4b65-8cd9-5f3c41b9a0c9" deferrability="7" deleteRule="3" fk-table-ref="TAB8" fkCardinality="7" identifying="false" name="TB_CIDADE_TB_ESTADIO_fk" physicalName="TB_CIDADE_TB_ESTADIO_fk" pk-table-ref="TAB16" pkCardinality="3" updateRule="3" >
+    <column-mapping id="CMP37" populated="true" UUID="43729a5b-dc09-4f05-a3ec-fe96524fc552" fk-column-ref="COL13" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL17" />
+   </relationship>
+   <relationship id="REL38" populated="true" UUID="5a696b24-33cc-4722-8ccf-0bf6f51cea25" deferrability="7" deleteRule="3" fk-table-ref="TAB16" fkCardinality="7" identifying="false" name="TB_ESTADO_TB_CIDADE_fk" physicalName="TB_ESTADO_TB_CIDADE_fk" pk-table-ref="TAB22" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP39" populated="true" UUID="cb215ea5-a9fc-4b76-a088-614cff693f88" fk-column-ref="COL19" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL23" />
+   </relationship>
+   <relationship id="REL40" populated="true" UUID="16e2b226-3bee-4cc8-8ff1-fdbd6d73e5ea" deferrability="7" deleteRule="3" fk-table-ref="TAB22" fkCardinality="7" identifying="false" name="TB_REGIAO_TB_ESTADO_fk" physicalName="TB_REGIAO_TB_ESTADO_fk" pk-table-ref="TAB29" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP41" populated="true" UUID="07966c3d-d556-4d19-8816-50dc0c5acfae" fk-column-ref="COL26" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL30" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.Oracle9PlusDDLGenerator" allow-connection="true"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="20" y="20" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB8" x="305" y="20" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB16" x="46" y="237" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB22" x="354" y="236" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB29" x="652" y="248" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL34" pkConnection="0.27918781725888325" fkConnection="0.41624365482233505" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL36" pkConnection="0.7868020304568528" fkConnection="0.16019417475728157" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL38" pkConnection="0.4647887323943662" fkConnection="0.5211267605633803" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL40" pkConnection="0.5087719298245614" fkConnection="0.4823529411764706" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
